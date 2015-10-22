@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace linkedLists
 {
-    public class LinkedListOV<T>
+    public class MyLinkedList<T>
     {
         private Node<T> head;
+        private Node<T> end;
         private int count;
-        public LinkedListOV()
+        public MyLinkedList()
         {
             count = 0;
         }
@@ -18,12 +19,24 @@ namespace linkedLists
         {
             get { return count; }
         }
-        public void Add(T toAdd)
+        
+        public void AddFront(T toAdd)
         {
             Node<T> tmpNode = head;
             Node<T> addedNode = new Node<T>(toAdd);
             head = addedNode;
             head.Next = tmpNode;
+            count++;
+        }
+
+        public void Add(T toAdd)
+        {
+            Node<T> tmpNode = new Node<T>(toAdd);
+            if (head == null)
+                head = tmpNode;
+            else
+                end.Next = tmpNode;
+            end = tmpNode;
             count++;
         }
         
