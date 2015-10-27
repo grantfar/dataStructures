@@ -3,3 +3,8 @@ O:\CIS 237\dataStructures\Linked Lists\bin\Debug\Linked Lists.pdb
 O:\CIS 237\dataStructures\Linked Lists\obj\Debug\linkedLists.csprojResolveAssemblyReference.cache
 O:\CIS 237\dataStructures\Linked Lists\obj\Debug\Linked Lists.dll
 O:\CIS 237\dataStructures\Linked Lists\obj\Debug\Linked Lists.pdb
+O:\CIS237\dataStructures\Linked Lists\bin\Debug\Linked Lists.dll
+O:\CIS237\dataStructures\Linked Lists\bin\Debug\Linked Lists.pdb
+O:\CIS237\dataStructures\Linked Lists\obj\Debug\linkedLists.csprojResolveAssemblyReference.cache
+O:\CIS237\dataStructures\Linked Lists\obj\Debug\Linked Lists.dll
+O:\CIS237\dataStructures\Linked Lists\obj\Debug\Linked Lists.pdb
